@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
-import { Link, withRouter } from 'react-router-dom';
 import { Collapse, Dropdown } from 'react-bootstrap';
 import { Trans } from 'react-i18next';
+import { Link, withRouter } from 'react-router-dom';
 
 class Sidebar extends Component {
 
@@ -67,8 +67,8 @@ class Sidebar extends Component {
                   <span className="count bg-success"></span>
                 </div>
                 <div className="profile-name">
-                  <h5 className="mb-0 font-weight-normal"><Trans>Henry Klein</Trans></h5>
-                  <span><Trans>Gold Member</Trans></span>
+                  <h5 className="mb-0 font-weight-normal"><Trans>Jamil Shafayat</Trans></h5>
+                  <span><Trans>Founder Member</Trans></span>
                 </div>
               </div>
               <Dropdown alignRight>
