@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Dropdown, ButtonGroup } from 'react-bootstrap';
+import { ButtonGroup, Dropdown } from 'react-bootstrap';
 
 export class Dropdowns extends Component {
   render() {
@@ -7,12 +7,12 @@ export class Dropdowns extends Component {
       <div>
         <div className="page-header">
           <h3 className="page-title">
-            Dropdowns
+            Dropdown
           </h3>
           <nav aria-label="breadcrumb">
             <ol className="breadcrumb">
               <li className="breadcrumb-item"><a href="!#" onClick={event => event.preventDefault()}>UI Elements</a></li>
-              <li className="breadcrumb-item active" aria-current="page">Dropdowns</li>
+              <li className="breadcrumb-item active" aria-current="page">Dropdown</li>
             </ol>
           </nav>
         </div>
@@ -22,7 +22,7 @@ export class Dropdowns extends Component {
               <div className="card-body">
                 <h4 className="card-title">Basic dropdown</h4>
                 <p className="card-description">
-                  Wrap the dropdown’s toggle (your button or link) and the dropdown menu within <code>.dropdown</code>
+                  Wrap the dropdown toggle (your button or link) and the dropdown menu within <code>.dropdown</code>
                 </p>
                 <div className="template-demo">
                   <Dropdown>
@@ -196,7 +196,7 @@ export class Dropdowns extends Component {
           <div className="col-md-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
-                <h4 className="card-title">Split button dropdowns</h4>
+                <h4 className="card-title">Split button dropdown</h4>
                 <p className="card-description">
                   Wrap two buttons in <code>.btn-group</code> and add <code>.dropdown-toggle-split</code> to the toggling button
                 </p>
@@ -292,7 +292,7 @@ export class Dropdowns extends Component {
           <div className="col-md-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
-                <h4 className="card-title">Icon dropdowns</h4>
+                <h4 className="card-title">Icon dropdown</h4>
                 <p className="card-description">
                   Add icon tags instead of text
                 </p>
@@ -425,7 +425,7 @@ export class Dropdowns extends Component {
           <div className="col-lg-6 grid-margin stretch-card">
             <div className="card">
               <div className="card-body">
-                <h4 className="card-title">Dropup variation</h4>
+                <h4 className="card-title">Drop up variation</h4>
                 <p className="card-description">
                   Add class <code>.dropup</code>
                 </p>

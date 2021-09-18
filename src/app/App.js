@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
+import { withTranslation } from "react-i18next";
 import { withRouter } from 'react-router-dom';
 import './App.scss';
 import AppRoutes from './AppRoutes';
+import Footer from './shared/Footer';
 import Navbar from './shared/Navbar';
 import Sidebar from './shared/Sidebar';
-import Footer from './shared/Footer';
-import { withTranslation } from "react-i18next";
 
 class App extends Component {
   state = {}
